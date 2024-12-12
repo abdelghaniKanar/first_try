@@ -1,8 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main()
-{
-    printf("Hello KANAR, ABDELGHANI\n");
+int main() {
+    int x, y;
+    printf("\nHello\n");
+    scanf("%d %d", &x, &y);
+    printf("x = %d, y = %d\n", x, y);
+
     return 0;
 }
